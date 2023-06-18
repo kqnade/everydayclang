@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
-project(Part3_Variables)
+project(Part3_Variables C)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(Part3_Variables main.cpp)
+add_executable(Part3_Variables main.c)
