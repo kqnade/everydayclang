@@ -270,6 +270,7 @@ type and nonnegative value, and E1 × 2E2 is representable in the result type, t
 the resulting value; otherwise, the behavior is undefined.
 
 となっている。つまり、左シフトの場合、左シフトしたビットが符号ビットに影響を与える場合は未定義であり環境依存となる。
+算術シフト(Arithmetic Shift)と論理シフト(Logical Shift)のどちらが行われるかは環境依存。
 
 # 演算子の優先順位
 
